@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "citacoes",
+  "info": {
+    "singularName": "citacao",
+    "pluralName": "citacoes",
+    "displayName": "Citações",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "mainText": {
+      "type": "richtext"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

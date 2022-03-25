@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "passagems",
+  "info": {
+    "singularName": "passagem",
+    "pluralName": "passagems",
+    "displayName": "Passagem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pass": {
+      "type": "json"
+    }
+  }
+}
